@@ -8,7 +8,7 @@ const GlobalStyles = createGlobalStyle`
 
 }
 body{
-    background: #fff;
+    background: ${({ theme }) => theme.colors.body};
     color: hsl(192,100% 9%);
     font-family: 'Popins', sans-serif;
     font-size: 1.5em;
